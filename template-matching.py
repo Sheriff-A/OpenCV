@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 
 img = cv.imread('assets/soccer_practice.jpg', 0)
-template = cv.imread('assets/ball.PNG', 0)
+template = cv.imread('assets/ball.png', 0)
 
 h, w = template.shape
 methods = [cv.TM_CCOEFF,
